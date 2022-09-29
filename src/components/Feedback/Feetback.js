@@ -33,7 +33,7 @@ class Feedback extends Component {
   render() {
     return (
       <FeetbackBlock>
-        <FeetbackTitle>Please leave feedback</FeetbackTitle>
+        <FeetbackTitle>Please leave feedback!</FeetbackTitle>
         <FeedbackOptions
           options={Object.keys(this.state)}
           onLeaveFeedback={this.addValue}
