@@ -1,10 +1,9 @@
-import Feedback from './Feedback/Feetback';
+import Feedback from './Featback/Feetback';
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

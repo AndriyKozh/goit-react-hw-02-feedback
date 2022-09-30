@@ -1,21 +1,5 @@
 import styled from 'styled-components';
 
-export const FeetbackBlock = styled.div`
-  border: 1px solid #000;
-  height: 1000px;
-  width: 100%;
-  padding: 20px;
-`;
-
-export const FeetbackTitle = styled.h1`
-  font-size: 40px;
-  font-weight: bold;
-`;
-
-export const FeetbackStatisticTitle = styled.h2`
-  font-size: 40px;
-  font-weight: bold;
-`;
 export const FeetbackBtn = styled.button`
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -24,9 +8,17 @@ export const FeetbackBtn = styled.button`
   border: 0;
   font-weight: bold;
   cursor: pointer;
+  &:hover {
+    background-color: #00ffff;
+    color: #fff;
+  }
 
   &:active {
     background-color: #0000ff;
     color: #fff;
   }
+`;
+
+export const FeetbackBtnBlock = styled.div`
+  padding: 40px 0 40px 0;
 `;
